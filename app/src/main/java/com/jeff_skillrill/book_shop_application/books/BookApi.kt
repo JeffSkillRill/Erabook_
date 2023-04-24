@@ -1,9 +1,9 @@
 package com.jeff_skillrill.book_shop_application.books
 
 import android.content.Context
-import com.example.medical.R
-import com.example.medical.model.Book
 import com.google.gson.Gson
+import com.jeff_skillrill.book_shop_application.R
+import com.jeff_skillrill.book_shop_application.model.Book
 
 class BookApi(context: Context) {
     companion object {

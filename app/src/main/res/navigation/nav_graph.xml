@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.medical.fragments.SplashFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.medical.fragments.WelcomeFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/genderFragment"
-        android:name="com.example.medical.fragments.GenderFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.GenderFragment"
         android:label="fragment_gender"
         tools:layout="@layout/fragment_gender" >
         <action
@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/ageFragment"
-        android:name="com.example.medical.fragments.AgeFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.AgeFragment"
         android:label="fragment_age"
         tools:layout="@layout/fragment_age" >
         <action
@@ -55,7 +55,7 @@
     </fragment>
     <fragment
         android:id="@+id/selectGenreFragment"
-        android:name="com.example.medical.fragments.SelectGenreFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.SelectGenreFragment"
         android:label="fragment_select_genre"
         tools:layout="@layout/fragment_select_genre" >
         <action
@@ -64,7 +64,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.medical.fragments.SignUpFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" >
         <action
@@ -74,12 +74,12 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.medical.fragments.MainFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.medical.fragments.SignInFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -89,28 +89,28 @@
     </fragment>
     <fragment
         android:id="@+id/personalInfoFragment"
-        android:name="com.example.medical.fragments.PersonalInfoFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.PersonalInfoFragment"
         android:label="fragment_personal_info"
         tools:layout="@layout/fragment_personal_info" />
     <fragment
         android:id="@+id/genreBooksFragment"
-        android:name="com.example.medical.fragments.GenreBooksFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.GenreBooksFragment"
         android:label="fragment_genre_books"
         tools:layout="@layout/fragment_genre_books" />
     <fragment
         android:id="@+id/bookDetailFragment"
-        android:name="com.example.medical.fragments.BookDetailFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.BookDetailFragment"
         android:label="fragment_book_detail"
         tools:layout="@layout/fragment_book_detail" />
 
     <fragment
         android:id="@+id/filterFragment"
-        android:name="com.example.medical.fragments.FilterFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.FilterFragment"
         android:label="fragment_filter"
         tools:layout="@layout/fragment_filter"/>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.medical.fragments.HomeFragment"
+        android:name="com.jeff_skillrill.book_shop_application.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 </navigation>
