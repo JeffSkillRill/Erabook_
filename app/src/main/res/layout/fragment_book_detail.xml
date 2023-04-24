@@ -58,7 +58,7 @@
             android:layout_height="245dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/harry_potter"
+            android:src="@drawable/doxology"
             app:shapeAppearanceOverlay="@style/RoundedCorner" />
 
         <LinearLayout
@@ -72,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/pop_600"
-                android:text="Harry Potter and the Deathly Hallows"
+                android:text="Doxology"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -84,7 +84,7 @@
                 android:fontFamily="@font/pop_600"
                 android:text="J.K. Rowling"
                 android:textColor="@color/mainColor"
-                android:textSize="12sp" />
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/genreName"
@@ -94,17 +94,8 @@
                 android:fontFamily="@font/pop_500"
                 android:text="Action"
                 android:textColor="#E60E0E"
-                android:textSize="12sp" />
+                android:textSize="17sp" />
 
-            <TextView
-                android:id="@+id/releasedDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/pop_500"
-                android:text="Released on Dec, 2015"
-                android:textColor="#626262"
-                android:textSize="12sp" />
 
         </LinearLayout>
 
@@ -144,12 +135,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_marginVertical="8dp"
-            android:layout_marginStart="7dp"
-            android:background="#626262" />
+
 
         <LinearLayout
             android:layout_width="0dp"
@@ -177,11 +163,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_marginVertical="8dp"
-            android:background="#626262" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -209,37 +190,15 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:layout_marginVertical="8dp"
-            android:background="#626262" />
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/purchaseCount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/pop_500"
-                android:text="50M+"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/pop_500"
-                android:text="purchases"
-                android:textColor="#626262"
-                android:textSize="14sp" />
 
-        </LinearLayout>
+
+
+
+
+
 
     </LinearLayout>
 
@@ -248,6 +207,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:text="Share with a friend"
+        app:backgroundTint="@color/mainColor"
         android:textAllCaps="false"
         app:cornerRadius="200dp" />
 

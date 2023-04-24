@@ -24,29 +24,29 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "Harry Potter",
-                "J.K. Rowling",
+                "Doxology",
+                "Nell Zink",
                 450,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.7,
-                "5.6 mb",
-                "$7.50",
-                R.drawable.img_1,
-                "Action",
+                "9.6 mb",
+                "$17.99",
+                R.drawable.doxology,
+                "Thriller",
                 null
             )
         )
 
         books.add(
             Book(
-                "Reign of Blood",
-                "Quinn Loftis",
-                235,
+                "The Final Revival of Opal & Nev",
+                "Dawnie Walton",
+                237,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.9,
-                "6.9 mb",
-                "$8.50",
-                R.drawable.blood,
+                "7.9 mb",
+                "$28.50",
+                R.drawable.opal,
                 "Romance",
                 null
             )
@@ -54,15 +54,15 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "Harry Potter",
-                "J.K. Rowling",
+                "An Equal Music",
+                "Vikram Seth",
                 235,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.9,
                 "6.9 mb",
                 "$8.50",
                 R.drawable.harry_potter,
-                "Action",
+                "Thriller",
                 null
             )
         )
@@ -84,8 +84,8 @@ class BookApi(context: Context) {
 
         books.add(
             Book(
-                "Harry Potter",
-                "J.K. Rowling",
+                "The Commitments",
+                "Roddy Doyle ",
                 235,
                 "\n" + "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat ac felis eget condimentum. Nunc fermentum velit et risus accumsan, at elementum metus luctus. Aliquam a nunc non leo placerat cursus. Sed et turpis sit amet libero volutpat luctus.",
                 4.2,

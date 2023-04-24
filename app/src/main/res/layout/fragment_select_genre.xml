@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/pop_600"
-        android:text="Choose the Book Genre You Like ❤️"
+        android:text="Choose the Book Genre You Like️"
         android:textColor="@color/black"
         android:textSize="25sp" />
 
@@ -43,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/pop_500"
                 android:text="Romance"
+                app:backgroundTint="@color/mainColor"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="14sp"
@@ -195,6 +196,7 @@
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/pop_500"
         android:text="Continue"
+        app:backgroundTint="@color/mainColor"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="15sp"

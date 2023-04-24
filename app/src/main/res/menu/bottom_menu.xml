@@ -4,14 +4,15 @@
         android:id="@+id/home"
         android:icon="@drawable/home"
         android:title="Home" />
-    <item
-        android:id="@+id/wishlist"
-        android:icon="@drawable/wishlist"
-        android:title="Wishlist" />
+
     <item
         android:id="@+id/purchased"
         android:icon="@drawable/saved_selected"
         android:title="Saved" />
+    <item
+        android:id="@+id/wishlist"
+        android:icon="@drawable/wishlist"
+        android:title="Wishlist" />
     <item
         android:id="@+id/account"
         android:icon="@drawable/account"

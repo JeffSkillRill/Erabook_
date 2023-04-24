@@ -85,7 +85,7 @@
                     android:buttonTint="@color/radio_button_color"
                     android:fontFamily="@font/pop_400"
                     android:includeFontPadding="false"
-                    android:text="4.5+"
+                    android:text="4.9+"
                     android:textColor="@color/black" />
 
                 <LinearLayout
@@ -197,11 +197,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/resetBtn"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="60dp"
             app:cornerRadius="100dp"
             android:backgroundTint="#FEF4E6"
@@ -211,12 +212,12 @@
             android:textSize="16sp"
             android:layout_weight="1"
             android:includeFontPadding="false"
-            android:text="Reset"
+            android:text="Disable"
             android:textAllCaps="false" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/applyBtn"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:textSize="16sp"
             android:layout_height="60dp"
             android:layout_marginStart="10dp"
@@ -225,6 +226,7 @@
             app:cornerRadius="100dp"
             android:includeFontPadding="false"
             android:text="Apply"
+            app:backgroundTint="@color/mainColor"
             android:textAllCaps="false" />
 
     </LinearLayout>

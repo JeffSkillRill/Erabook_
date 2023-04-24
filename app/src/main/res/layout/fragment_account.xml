@@ -16,7 +16,7 @@
             android:layout_width="60dp"
             android:layout_height="70dp"
             android:adjustViewBounds="true"
-            android:src="@drawable/logo" />
+            android:src="@drawable/personal_info" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -113,76 +113,7 @@
             android:src="@drawable/my_arrow"/>
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingStart="5dp">
 
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            android:src="@drawable/info" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pop_600"
-            android:text="About Erabook"
-            android:layout_marginStart="15dp"
-            android:textColor="@color/black"
-            android:textSize="17sp" />
-
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:src="@drawable/my_arrow"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingStart="5dp">
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            android:src="@drawable/preferences" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pop_600"
-            android:text="Preferences"
-            android:layout_marginStart="15dp"
-            android:textColor="@color/black"
-            android:textSize="17sp" />
-
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:src="@drawable/my_arrow"/>
-
-    </LinearLayout>
     <LinearLayout
         android:id="@+id/logOutBtn"
         android:layout_width="match_parent"

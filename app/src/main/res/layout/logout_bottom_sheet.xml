@@ -61,6 +61,7 @@
             android:fontFamily="@font/pop_500"
             app:cornerRadius="100dp"
             android:text="Logout"
+            app:backgroundTint="@color/mainColor"
             android:textAllCaps="false" />
 
     </LinearLayout>
