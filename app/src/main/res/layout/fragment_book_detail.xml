@@ -84,7 +84,7 @@
                 android:fontFamily="@font/pop_600"
                 android:text="J.K. Rowling"
                 android:textColor="@color/mainColor"
-                android:textSize="17sp" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/genreName"
@@ -94,7 +94,8 @@
                 android:fontFamily="@font/pop_500"
                 android:text="Action"
                 android:textColor="#E60E0E"
-                android:textSize="17sp" />
+                android:textSize="12sp" />
+
 
 
         </LinearLayout>
@@ -135,7 +136,12 @@
 
         </LinearLayout>
 
-
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="8dp"
+            android:layout_marginStart="7dp"
+            android:background="#626262" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -163,6 +169,11 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="8dp"
+            android:background="#626262" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -190,15 +201,37 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="8dp"
+            android:background="#626262" />
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/purchaseCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pop_500"
+                android:text="50M+"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pop_500"
+                android:text="purchases"
+                android:textColor="#626262"
+                android:textSize="14sp" />
 
-
-
-
-
-
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -206,8 +239,8 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
-        android:text="Share with a friend"
         app:backgroundTint="@color/mainColor"
+        android:text="Share with a friend"
         android:textAllCaps="false"
         app:cornerRadius="200dp" />
 
