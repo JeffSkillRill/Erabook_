@@ -61,7 +61,7 @@ class BookApi(context: Context) {
                 4.9,
                 "6.9 mb",
                 "$8.50",
-                R.drawable.harry_potter,
+                R.drawable.music,
                 "Thriller",
                 null
             )
@@ -91,7 +91,7 @@ class BookApi(context: Context) {
                 4.2,
                 "6.9 mb",
                 "$8.50",
-                R.drawable.harry_potter2,
+                R.drawable.action1,
                 "Action",
                 null
             )
