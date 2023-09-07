@@ -29,37 +29,10 @@
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
-            android:id="@+id/action_welcomeFragment_to_genderFragment"
-            app:destination="@id/genderFragment" />
-        <action
             android:id="@+id/action_welcomeFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/genderFragment"
-        android:name="com.jeff_skillrill.book_shop_application.fragments.GenderFragment"
-        android:label="fragment_gender"
-        tools:layout="@layout/fragment_gender" >
         <action
-            android:id="@+id/action_genderFragment_to_ageFragment"
-            app:destination="@id/ageFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/ageFragment"
-        android:name="com.jeff_skillrill.book_shop_application.fragments.AgeFragment"
-        android:label="fragment_age"
-        tools:layout="@layout/fragment_age" >
-        <action
-            android:id="@+id/action_ageFragment_to_selectGenreFragment"
-            app:destination="@id/selectGenreFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/selectGenreFragment"
-        android:name="com.jeff_skillrill.book_shop_application.fragments.SelectGenreFragment"
-        android:label="fragment_select_genre"
-        tools:layout="@layout/fragment_select_genre" >
-        <action
-            android:id="@+id/action_selectGenreFragment_to_signUpFragment"
+            android:id="@+id/action_welcomeFragment_to_signUpFragment3"
             app:destination="@id/signUpFragment" />
     </fragment>
     <fragment
